@@ -2,6 +2,6 @@
 
 // import {greeting} from '../src/cli.js';
 // greeting();
-import {evengame} from '../bin/brain-even.js'
+import {evengame} from '../games/even-game.js'
 
 evengame();

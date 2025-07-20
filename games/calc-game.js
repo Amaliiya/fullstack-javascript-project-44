@@ -27,6 +27,4 @@ function calc() {
 
     
 }
-export const calcGame = gamelogic(rules, calc);
-
-
+export const calcGame = () => gamelogic(rules, calc);
