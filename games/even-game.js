@@ -30,7 +30,7 @@ export function evengame() {
             }            
         }
         if (correctAnswers === 3) {
-            console.log(`Congratulations ${name}!`);
+            console.log(`Congratulations, ${name}!`);
         }       
     } 
 }
