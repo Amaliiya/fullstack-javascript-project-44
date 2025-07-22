@@ -12,7 +12,7 @@ export function gamelogic(rules, game) {
             console.log('Correct!');
         }
         if (correct === false) {
-            console.log(`${answer} is wrong answer;(. Correct answer was ${result}.`);
+            console.log(`'${answer}' is wrong answer ;(. Correct answer was '${result}'.`);
             console.log(`Let's try again, ${name}!`)
             break
         }
