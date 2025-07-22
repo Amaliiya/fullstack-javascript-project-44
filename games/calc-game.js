@@ -10,7 +10,6 @@ function calc() {
     console.log(`Question: ${number1} ${randomOperator} ${number2}`);
     const stranswer = readlineSync.question('Your answer: ');
     const answer = parseInt(stranswer, 10);
-    let correct
     let result;
     switch (randomOperator) {
         case '+':
