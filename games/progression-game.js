@@ -2,8 +2,6 @@ import { gamelogic } from "../src/index.js";
 import readlineSync from 'readline-sync';
 const rules = ('What number is missing in the progression?');
 
-
-
 function progressionElem() {
     const start = Math.floor(Math.random() * 10);        
     const step = Math.floor(Math.random() * 15);
