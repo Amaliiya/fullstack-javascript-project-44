@@ -4,21 +4,19 @@ const rules = 'Answer "yes" if given number is prime. Otherwise answer "no"'
 
 function isPrime(number) {
 
-    let isprime;
     if ((number < 2) || ((number % 2) === 0)) {
-        isprime = 'no';
+        return 'no';
     }
     if (number === 2) {
-        isprime = 'yes';
+        return 'yes';
     }
-    for (let num = 2; num <= (Math.floor(number**0.5) + 1); num++) {
-        if (number % num === 0) {
-            isprime = 'no';
-        } else isprime = 'yes'
+    for (let num = 3; num <= (Math.floor(number**0.5) + 1); num++) {
+        if ((number % num) === 0) {
+            return 'no';
+        }    
     }
-    return isprime
+    return 'yes'
 }
-
 function primenumber() {
     const number = Math.floor(Math.random() * 100);
     console.log(`Question: ${number}`);
