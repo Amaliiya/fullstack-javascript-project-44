@@ -9,7 +9,7 @@
 Для правильной работы проекта требуется:
 1. Установить Node.js (<a href = 'https://github.com/Hexlet/ru-instructions/blob/main/nodejs.md'>инструкция</a>)
 2. Клонировать репозиторий локально используя команду `git clone git@github.com:Amaliiya/fullstack-javascript-project-44.git`
-3. Выполните команду `make install`
+3. Выполнить команду `make install`
 
 # Список игр 
 Чтобы запустить игру из списка ниже, введите команду `make название игры`. 
@@ -21,7 +21,8 @@
 
 # Превью игр
 **brain-even asciinema**
-[![asciicast](https://asciinema.org/a/YlbDZo6UTMsZNKNGLgAWavZvj)](https://asciinema.org/a/452093)
+![asciicast](https://asciinema.org/a/YlbDZo6UTMsZNKNGLgAWavZvj)
+
 
 <a href = "https://asciinema.org/a/YlbDZo6UTMsZNKNGLgAWavZvj">
 <a href = 'https://asciinema.org/a/Kca8eiAzbWrziMamKdrgErZKy'>
