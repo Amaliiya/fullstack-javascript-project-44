@@ -21,11 +21,16 @@
 
 # Превью игр
 **brain-even asciinema**
-![asciicast](https://asciinema.org/a/YlbDZo6UTMsZNKNGLgAWavZvj)
+[![asciicast](https://asciinema.org/a/ruMtNPAgaTik7UCUtAQnrOhWQ.svg)](https://asciinema.org/a/ruMtNPAgaTik7UCUtAQnrOhWQ)
 
+**brain-calc asciinema**
+[![asciicast](https://asciinema.org/a/Kca8eiAzbWrziMamKdrgErZKy.svg)](https://asciinema.org/a/Kca8eiAzbWrziMamKdrgErZKy)
 
-<a href = "https://asciinema.org/a/YlbDZo6UTMsZNKNGLgAWavZvj">
-<a href = 'https://asciinema.org/a/Kca8eiAzbWrziMamKdrgErZKy'>
-<a href = "https://asciinema.org/a/hrosoipPojUgfBO0ExMvZ9QSr">
-<a href = "https://asciinema.org/a/eSLYyIe0ZYIQCbnuukBjfg7Jl">
-<a href = "https://asciinema.org/a/P2t2vGFCDgyJ5NJDI2bjGigo1">
+**brain-gcd asciinema**
+[![asciicast](https://asciinema.org/a/yK1upHitusZtyqs4O189Vphvt.svg)](https://asciinema.org/a/yK1upHitusZtyqs4O189Vphvt)
+
+**brain-progression asciinema**
+[![asciicast](https://asciinema.org/a/eSLYyIe0ZYIQCbnuukBjfg7Jl.svg)](https://asciinema.org/a/eSLYyIe0ZYIQCbnuukBjfg7Jl)
+
+**brain-prime asciinema**
+[![asciicast](https://asciinema.org/a/P2t2vGFCDgyJ5NJDI2bjGigo1.svg)](https://asciinema.org/a/P2t2vGFCDgyJ5NJDI2bjGigo1)
