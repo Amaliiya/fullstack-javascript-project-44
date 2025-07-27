@@ -1,4 +1,4 @@
-import { gamelogic } from '"../src/index.js"'
+import { gamelogic } from '../src/index.js'
 import readlineSync from 'readline-sync'
 const rules = 'Answer "yes" if given number is prime. Otherwise answer "no"'
 
