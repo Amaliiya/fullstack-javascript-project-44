@@ -19,7 +19,9 @@ function progression(seq) {
     let index = Math.floor(Math.random() * seq.length)
     let result = seq[index]
     seq[index] = '..'
-    console.log(`Question: ${seq}`);
+
+    
+    console.log(`Question: ${seq.join(' ')}`);
     const stranswer = readlineSync.question('Your answer: ');
     const answer = parseInt(stranswer, 10);
     return [result, answer, result === answer]
