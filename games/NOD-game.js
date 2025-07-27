@@ -1,29 +1,29 @@
-import { gamelogic } from "../src/index.js";
-import readlineSync from 'readline-sync';
+import { gamelogic } from '../src/index.js'
+import readlineSync from 'readline-sync'
 const rules = 'Find the greatest common divisor of given numbers.'
 
 function nod() {
-    const number1 = Math.floor(Math.random() * (20));
-    const number2 = Math.floor(Math.random() * (20));
-    console.log(`Question: ${number1} ${number2}`); 
-    const stranswer = readlineSync.question('Your answer: ');
-    const answer = parseInt(stranswer, 10);
-    let result;
+  const number1 = Math.floor(Math.random() * (20))
+  const number2 = Math.floor(Math.random() * (20))
+  console.log(`Question: ${number1} ${number2}`)
+  const stranswer = readlineSync.question('Your answer: ')
+  const answer = parseInt(stranswer, 10)
+  let result
 
-    let a = number1;
-    let b = number2;
-    if (number2 === 0) {
-        result = number1;
-        }
-    else {
-        while (b !== 0) {
-            let ostatok = a % b
-            a = b
-            b = ostatok
-        }
-        result = a                 
+  let a = number1
+  let b = number2
+  if (number2 === 0) {
+    result = number1
     }
-    return [result, answer, result === answer]
+  else {
+    while (b !== 0) {
+      let ostatok = a % b
+      a = b
+      b = ostatok
+    }
+    result = a
+  }
+  return [result, answer, result === answer]
 }
 
-export const nodGame = () => gamelogic(rules, nod);
+export const nodGame = () => gamelogic(rules, nod)

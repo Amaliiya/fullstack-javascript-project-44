@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import {nodGame} from '../games/NOD-game.js'
+import { nodGame } from '../games/NOD-game.js'
 
-nodGame();
+nodGame()
