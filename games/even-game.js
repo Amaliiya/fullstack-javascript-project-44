@@ -9,7 +9,7 @@ export function isEven() {
   let result
   if (number % 2 === 0) {
     result = 'yes'
-  } 
+  }
   else result = 'no'
   return [result, answer, result === answer]
 }

@@ -1,10 +1,10 @@
 import readlineSync from 'readline-sync'
 export function gamelogic(rules, game) {
-  console.log("Welcome to the Brain Games!")
-  const name = readlineSync.question("May I have your name? ")
+  console.log('Welcome to the Brain Games!')
+  const name = readlineSync.question('May I have your name?')
   console.log(`Hello, ${name}!`)
   console.log(rules)
-  let correctAnswers = 0;
+  let correctAnswers = 0
   for (let i = 0; i < 3; i++) {
     const [result, answer, correct] = game()
     if (correct === true) {
@@ -18,6 +18,6 @@ export function gamelogic(rules, game) {
     }
   }
   if (correctAnswers === 3) {
-      console.log(`Congratulations, ${name}!`)
-    }
+    console.log(`Congratulations, ${name}!`)
+  }
 }

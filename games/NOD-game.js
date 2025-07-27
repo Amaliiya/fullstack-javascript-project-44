@@ -14,7 +14,7 @@ function nod() {
   let b = number2
   if (number2 === 0) {
     result = number1
-    }
+  }
   else {
     while (b !== 0) {
       let ostatok = a % b

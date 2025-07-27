@@ -9,10 +9,10 @@ function isPrime(number) {
   if (number === 2) {
     return 'yes'
   }
-  for (let num = 3; num <= (Math.floor(number**0.5) + 1); num++) {
+  for (let num = 3; num <= (Math.floor(number ** 0.5) + 1); num++) {
     if ((number % num) === 0) {
       return 'no'
-    }  
+    } 
   }
   return 'yes'
 }
