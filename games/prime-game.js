@@ -12,7 +12,7 @@ function isPrime(number) {
   for (let num = 3; num <= (Math.floor(number ** 0.5) + 1); num++) {
     if ((number % num) === 0) {
       return 'no'
-    } 
+    }
   }
   return 'yes'
 }
