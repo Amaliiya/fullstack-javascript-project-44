@@ -16,7 +16,7 @@ function progressionElem() {
 
 function progression(seq) {
   seq = progressionElem()
-  let index = randomNum * seq.length
+  let index = Math.floor(Math.random() * seq.length)
   let result = seq[index]
   seq[index] = '..'
   console.log(`Question: ${seq.join(' ')}`)
