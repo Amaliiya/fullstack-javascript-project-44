@@ -1,10 +1,11 @@
-import { gamelogic } from '../src/index.js'
+import { gamelogic } from '../index.js'
 import readlineSync from 'readline-sync'
+import { randomNum } from '../random-num.js'
 const rules = ('What number is missing in the progression?')
 
 function progressionElem() {
-  const start = Math.floor(Math.random() * 10)
-  const step = Math.floor(Math.random() * 15)
+  const start = randomNum
+  const step = randomNum
   let numbers = []
   for (let i = 0; i <= (Math.floor(Math.random() * 6 + 5)); i++) {
     let elem = (start + i * step)
@@ -15,7 +16,7 @@ function progressionElem() {
 
 function progression(seq) {
   seq = progressionElem()
-  let index = Math.floor(Math.random() * seq.length)
+  let index = randomNum * seq.length
   let result = seq[index]
   seq[index] = '..'
   console.log(`Question: ${seq.join(' ')}`)

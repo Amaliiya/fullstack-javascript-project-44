@@ -1,5 +1,6 @@
-import { gamelogic } from '../src/index.js'
+import { gamelogic } from '../index.js'
 import readlineSync from 'readline-sync'
+import { randomNum } from '../random-num.js'
 const rules = 'Answer "yes" if given number is prime. Otherwise answer "no"'
 
 function isPrime(number) {
@@ -17,7 +18,7 @@ function isPrime(number) {
   return 'yes'
 }
 function primenumber() {
-  const number = Math.floor(Math.random() * 100)
+  const number = randomNum
   console.log(`Question: ${number}`)
   const answer = readlineSync.question('Your answer: ')
   let result = isPrime(number)

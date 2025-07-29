@@ -1,9 +1,10 @@
-import { gamelogic } from '../src/index.js'
+import { gamelogic } from '../index.js'
 import readlineSync from 'readline-sync'
+import { randomNum } from '../random-num.js'
 const rules = 'Answer "yes" if the number is even, otherwise answer "no"'
 
 export function isEven() {
-  const number = Math.floor(Math.random() * (52))
+  const number = randomNum
   console.log(`Question: ${number}`)
   const answer = readlineSync.question('Your answer: ')
   let result
